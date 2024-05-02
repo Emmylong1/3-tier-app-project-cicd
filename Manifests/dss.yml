@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: yelp-camp-secrets
+  namespace: webapps   # Specify the namespace here
 type: Opaque
 data:
   CLOUDINARY_CLOUD_NAME: ZHNtNHd0dmc2Cg==
