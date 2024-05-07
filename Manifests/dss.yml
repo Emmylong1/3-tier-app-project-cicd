@@ -6,11 +6,11 @@ metadata:
   namespace: webapps   # Specify the namespace for the Secret
 type: Opaque
 data:
-  CLOUDINARY_CLOUD_NAME: ZGd1YTFmNmlrCg==
-  CLOUDINARY_KEY: NzUzNzQ3NDUzNjQ0Nzk3Cg==
-  CLOUDINARY_SECRET: U2s2bGtyS05LcnZCZ0JBdENwbkRBLU9VS01ZCg==
-  MAPBOX_TOKEN: c2suZXlKMUlqb2lZbWxuWkdWMklpd2lZU0k2SW1Oc2RuTTRNR3gzWkRCME16a3lhbTV1YkdkbmIyMTZlWGNpZlEuMmZfbWlBcjhjNE11VEpTRUtEZzdNZwo=
-  DB_URL: bW9uZ29kYitzcnY6Ly91em9uZHVlZ2JvbWJhaDQxOTpPT0M3QmE1NWhPWDkyM0paQGJpZ2RldnkuOTNoY3hldi5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9YmlnZGV2eQo=
+  CLOUDINARY_CLOUD_NAME: ZHNtNHd0dmc2Cg==
+  CLOUDINARY_KEY: MzkyMjY2NjkxODU3NTc3Cg==
+  CLOUDINARY_SECRET: SHdCRnNzcGN3TkZEUWc5TmtEVjQya3Y0Uzc4Cg==
+  MAPBOX_TOKEN: c2suZXlKMUlqb2lZbWxuWkdWMklpd2lZU0k2SW1Oc2RuWnZjRFJ6YkRGNU1HVXljbkp5YVhRNGJuTmxjWEVpZlEuTG5mRkdOdjZWRFN5TGYtWXlZN1RCdwo=
+  DB_URL: bW9uZ29kYitzcnY6Ly91em9uZHVlZ2JvbWJhaDQxOToydlJaNDJoZENQb2tnRW96QGJpZ2RldnkuZmZueXM0NS5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9QmlnZGV2eQo=
   SECRET: QmlnZGV2Cg==
 
 ---
@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: yelp-camp-container
-          image: uzondu/ralphprod:latest
+          image: uzondu/socket2:latest
           ports:
             - containerPort: 3000
           env:
