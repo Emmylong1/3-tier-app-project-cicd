@@ -34,6 +34,13 @@ docker compose up
 ![](./images/campgrounds.jpg)
 ![](./images/register.jpg)
 
+# Full Project Implementation On My Youtube Channel
+
+
+https://youtu.be/fFKhsdhteVk?si=e4WJc95f8he8SLY4
+
+
+
 
 ## CI IMPLEMENTATION
 
