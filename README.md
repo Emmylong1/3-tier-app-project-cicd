@@ -34,13 +34,6 @@ docker compose up
 ![](./images/campgrounds.jpg)
 ![](./images/register.jpg)
 
-# Full Project Implementation On My Youtube Channel
-
-
-https://youtu.be/fFKhsdhteVk?si=e4WJc95f8he8SLY4
-
-
-
 
 ## CI IMPLEMENTATION
 
@@ -73,26 +66,26 @@ sudo chmod +x jen.sh
 ./jen.sh
 ```
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/7775d984-18ab-4e1c-afe8-5cb250bab874)
+![](https://github.com/Emmylong1/3-tier-app-project/assets/137091610/7775d984-18ab-4e1c-afe8-5cb250bab874)
 
 
 #### Jenkins Configuration
 
 - tap on suggested plugins, always.
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/ae3bff8c-e975-4d23-a2fb-4f8a6a24b451)
+![](https://github.com/Emmylong1/3-tier-app-project/assets/137091610/ae3bff8c-e975-4d23-a2fb-4f8a6a24b451)
 
 
 - go to manage jenkins > available plugins to install [ docker, docker pipeline,kubernetes, kubernetes cli, nodejs,sonarqube scanner ]
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/b569bcb7-56d2-4384-8e60-99ed67fa8396)
+![](https://github.com/Emmylong1/3-tier-app-project/assets/137091610/b569bcb7-56d2-4384-8e60-99ed67fa8396)
 
 
 - next we need to install sonarqube and docker on sonarqube server check image below for command
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/b1aadebc-01f8-496e-8e00-31cc9d445654)
+![](https://github.com/Emmylong1/3-tier-app-project/assets/137091610/b1aadebc-01f8-496e-8e00-31cc9d445654)
 
 
 - on your jenkins server install docker too and trivy
@@ -103,7 +96,7 @@ sudo chmod +x jen.sh
 - go to your aws and copy the public IP of the sonarqube server and attach the port :9000 and paste on your webapp
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/61f62e2c-6fb5-44fc-9c5b-28f94947f79e)
+![](https://github.com/Emmylong1/3-tier-app-project/assets/137091610/61f62e2c-6fb5-44fc-9c5b-28f94947f79e)
 
 
 - to access it make use of " admin " as username and password thus you could change it after.
