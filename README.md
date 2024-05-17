@@ -73,7 +73,7 @@ sudo chmod +x jen.sh
 
 - tap on suggested plugins, always.
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/ae3bff8c-e975-4d23-a2fb-4f8a6a24b451)
+![Screenshot 2024-05-16 165819](https://github.com/Emmylong1/3-tier-app-project-cicd/assets/98855013/3f8e7f2b-c4da-48d9-8f2a-75aad89f7fe8)
 
 
 - go to manage jenkins > available plugins to install [ docker, docker pipeline,kubernetes, kubernetes cli, nodejs,sonarqube scanner ]
