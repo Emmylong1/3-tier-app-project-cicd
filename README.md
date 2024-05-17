@@ -104,14 +104,14 @@ sudo chmod +x jen.sh
 
 - go to administration > user > and generate a token, copy and save it .
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/3b185b56-8542-4980-bfa8-890e056161be)
+![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/Screenshot 2024-05-16 165628)
 
 
 - on your jenkins webapps go to credentials and <global> create a credential,select kind and choose secret and in secret paste the sonarqube token you generated and use 
   sonar-token as ID SAVE.
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/Screenshot 2024-05-16 165628.png)
+![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/65fc9622-afac-424f-876b-0a818c1e739a)
 
   
 - next go to systems and search for sonarqube add and use the name sonar > copy your sonarqube url and paste without the "/"  > now under server authentication select the 
