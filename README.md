@@ -111,7 +111,7 @@ sudo chmod +x jen.sh
   sonar-token as ID SAVE.
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/65fc9622-afac-424f-876b-0a818c1e739a)
+![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/Screenshot 2024-05-16 165628.png)
 
   
 - next go to systems and search for sonarqube add and use the name sonar > copy your sonarqube url and paste without the "/"  > now under server authentication select the 
