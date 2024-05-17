@@ -104,7 +104,7 @@ sudo chmod +x jen.sh
 
 - go to administration > user > and generate a token, copy and save it .
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/Screenshot 2024-05-16 165628)
+![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/3b185b56-8542-4980-bfa8-890e056161be)
 
 
 - on your jenkins webapps go to credentials and <global> create a credential,select kind and choose secret and in secret paste the sonarqube token you generated and use 
@@ -118,7 +118,7 @@ sudo chmod +x jen.sh
   sonar-token we created earlier.
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/a0486103-19c9-45aa-8145-9f06ae2d3f66)
+![Screenshot 2024-05-16 165628](https://github.com/Emmylong1/3-tier-app-project-cicd/assets/98855013/fb848303-2d6c-4c18-a5c8-88b488241c55)
 
 
 - also in systems search for nodejs add and save the name with "node21" 
