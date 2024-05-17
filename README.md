@@ -111,14 +111,14 @@ sudo chmod +x jen.sh
   sonar-token as ID SAVE.
 
 
-![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/65fc9622-afac-424f-876b-0a818c1e739a)
+![Screenshot 2024-05-16 165628](https://github.com/Emmylong1/3-tier-app-project-cicd/assets/98855013/fb848303-2d6c-4c18-a5c8-88b488241c55)
 
   
 - next go to systems and search for sonarqube add and use the name sonar > copy your sonarqube url and paste without the "/"  > now under server authentication select the 
   sonar-token we created earlier.
 
 
-![Screenshot 2024-05-16 165628](https://github.com/Emmylong1/3-tier-app-project-cicd/assets/98855013/fb848303-2d6c-4c18-a5c8-88b488241c55)
+![](https://github.com/UzonduEgbombah/3-tier-app-project/assets/137091610/a0486103-19c9-45aa-8145-9f06ae2d3f66)
 
 
 - also in systems search for nodejs add and save the name with "node21" 
